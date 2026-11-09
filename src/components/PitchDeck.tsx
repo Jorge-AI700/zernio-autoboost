@@ -99,28 +99,28 @@ export const PitchDeck: React.FC<PitchDeckProps> = ({ onOpenLiveEngine }) => {
         <div className="py-6 space-y-8 animate-fade-in flex-1 flex flex-col justify-center">
           <div>
             <span className="text-xs font-black uppercase tracking-wider text-red-500 flex items-center gap-1.5 mb-2">
-              <Clock className="w-3.5 h-3.5" /> The 24-Hour Latency Gap
+              <Flame className="w-3.5 h-3.5" /> The Core Problem
             </span>
             <h2 className="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
-              Organic hits die in 12 hours. <br />
-              <span className="text-red-500">Launching ads takes 24 hours.</span>
+              Viral momentum <br />
+              <span className="text-red-500">is almost always wasted.</span>
             </h2>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800">
-              <div className="text-xs font-black uppercase tracking-wider text-slate-400 mb-2">Buffer / Hootsuite</div>
-              <div className="text-lg font-bold text-slate-900 dark:text-white mb-1">Organic Scheduling Only</div>
+              <div className="text-xs font-black uppercase tracking-wider text-slate-400 mb-2">The Algorithmic Decay</div>
+              <div className="text-lg font-bold text-slate-900 dark:text-white mb-1">Temporary Spike, No Pipeline</div>
               <p className="text-xs text-red-500 font-semibold flex items-center gap-1.5">
-                <XCircle className="w-4 h-4 shrink-0" /> Zero paid advertising capabilities
+                <XCircle className="w-4 h-4 shrink-0" /> Posts vanish from feeds with zero permanent customer acquisition
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800">
-              <div className="text-xs font-black uppercase tracking-wider text-slate-400 mb-2">Meta Ads Manager</div>
-              <div className="text-lg font-bold text-slate-900 dark:text-white mb-1">Manual & Slow</div>
+              <div className="text-xs font-black uppercase tracking-wider text-slate-400 mb-2">The Ad Manager Friction</div>
+              <div className="text-lg font-bold text-slate-900 dark:text-white mb-1">Too Slow to Catch the Wave</div>
               <p className="text-xs text-red-500 font-semibold flex items-center gap-1.5">
-                <XCircle className="w-4 h-4 shrink-0" /> 20+ manual clicks • Loses original social proof
+                <XCircle className="w-4 h-4 shrink-0" /> 20+ manual setup steps • Loses all original organic social proof
               </p>
             </div>
           </div>
