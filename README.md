@@ -55,6 +55,23 @@ Engineered for the Zernio challenge by Jorge Luis. Bridges organic social publis
 
 ---
 
+## 🔬 Zernio API Technical Audit & Edge Cases
+
+During our implementation, we documented several edge cases, undocumented requirements, and broken Meta URLs across Zernio's endpoints.
+
+👉 **Read the full developer report with reproductions and suggested fixes:**  
+**[`api-feedback/API_AUDIT_REPORT.md`](api-feedback/API_AUDIT_REPORT.md)**
+
+*Topics covered in the report:*
+1. **Broken Meta Ad Library Snapshot URL:** `render_ad/?id=...` returning 404 & public canonical fix.
+2. **Undocumented Mandatory `profileId`:** `GET /v1/connect/:platform` 400 error & auto-fallback fix.
+3. **CORS Policy for SPAs:** Preflight restrictions for client-side apps & dashboard origins recommendation.
+4. **Click-to-WhatsApp (CTWA) Objective Mismatch:** `POST /v1/ads/boost` Meta objective auto-injection.
+5. **Ad Account ID Redundancy:** Defaulting to primary active ad account.
+6. **Product Feature Opportunity:** Native viral velocity & breakout telemetry on `GET /v1/posts`.
+
+---
+
 ## 🚀 Quickstart (Run Locally in 60 Seconds)
 
 ### 1. Clone & Install
